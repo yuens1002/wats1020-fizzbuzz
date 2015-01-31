@@ -54,8 +54,11 @@ Here is an example output that shows what any successful solution is going to gi
     19
     Buzz
 
+
+I will run your script in a standard Javascript console with no additional libraries installed to evaluate your success. I expect to see a result identical to the one provided above.
+
 Tips
 ====
 
 * You can write Javascript using the Developer Tools in any modern web browser. You can get tips about using Developer Tools all over. Here's a good place to start: https://developer.chrome.com/devtools/docs/authoring-development-workflow
-* 
+* There are a lot of tutorials and discussions of FizzBuzz online, and you are welcome to consult them. But please be aware that you may be spoiling the challenge for yourself, and that you may find people writing FizzBuzz in ways that are exotic or obscure. 
