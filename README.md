@@ -19,10 +19,11 @@ Fizzbuzz originates as a children's game to teach them about division. The rules
    
 In the children's game, if a child gets one wrong, they must sit down, and the last child standing wins.
 
-We will use a slightly modified verison of the play. Our goal is to create a script that will run through the numbers 1-20 and highlight all of the "Fizz", "Buzz", and "FizzBuzz" digits in that sequence. Here are the requirements for your script:
+We will use a slightly modified verison of the play. Our goal is to create a script that will run through the numbers 1-20 and highlight all of the "Fizz", "Buzz", and "FizzBuzz" digits in that sequence. Here are the **base requirements** for your script:
 
-* Create a new file called ``fizzBuzz.js`` and write a script to execute the FizzBuzz rules and determine the first 20 correct responses.
-* Iterate using a ``for`` loop through the sequence of numbers 1-20.
+* Write a script to execute the FizzBuzz rules in the file `fizzbuzz.js` and determine the first 20 correct responses.
+* Log all output to the console using `console.log()` statements.
+* Iterate using a `for` loop through the sequence of numbers 1-20.
 * For each number, check these conditions and respond appropriately:
   * If the number is divisible by 3, print "Fizz" to the console.
   * If the number is divisible by 5, print "Buzz" to the console.
@@ -56,6 +57,11 @@ Here is an example output that shows what any successful solution is going to gi
 
 
 I will run your script in a standard Javascript console with no additional libraries installed to evaluate your success. I expect to see a result identical to the one provided above.
+
+If you wish to pursue **stretch requirements** you can explore how you might accomplish the following:
+
+* Output the results of your script directly into the web page.
+* Encapsulate your FizzBuzz logic into a Function.
 
 Tips
 ====
