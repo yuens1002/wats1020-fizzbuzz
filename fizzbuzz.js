@@ -10,12 +10,12 @@ num_of_FizzBuzz = 0;
 // a for loop to loop thru a finite range of integars
 for (i = 1; i <= 20; i++) {
     /* if the integer is divisible by 3 & 5 console 
-    log FizzBuzz & add 1 total # of FizzBuzz */
+    log FizzBuzz & add 1 to total # of FizzBuzz */
     if ((i % 3 === 0) && (i % 5 === 0)) {
         console.log ('FizzBuzz');
         ++num_of_FizzBuzz;
     /* if the integer is divisible by 3 console
-    log Fizz & add 1 total # of Fizz */
+    log Fizz & add 1 to total # of Fizz */
     } else if (i % 3 === 0) {
         console.log ('Fizz');
         ++num_of_Fizz;
