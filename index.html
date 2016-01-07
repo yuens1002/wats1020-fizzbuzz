@@ -1,10 +1,22 @@
 <html>
   <head>
     <title>FizzBuzz Assignment</title>
+    <script type="text/javascript" src="fizzbuzz.js"></script>  
   </head>
   <body>
     <h1>FizzBuzz Assignment</h1>
-    <p>View FizzBuzz output in your browser console. No output will display on this page.</p>
-    <script type="text/javascript" src="fizzbuzz.js"></script>
+    <p>Let's play a game called FizzBuzz, you enter a starting number and an ending number and I'll tell you which number(s) is(are) divisble by 3, 5 or both with the word Fizz for the number divisible by 3, Buzz for 5, and FizzBuzz for both.  For numbers that are not divisble by 3 or 5, I'll simply return the number itself.</p>
+    <!-- not sure why the script needs to be before the onclick to work -->
+    
+    <p>
+      <p>starting number <input id="1st-num"></p>
+      <p>ending number <input id="2nd-num"></p>
+      <!-- runs the fizzbuzz.js script -->
+      <button onclick='doFizzBuzz();'>submit</button>
+      <p>
+      <div id="results"></div>
+      <p>
+      <div id="stats"></div>
+       
   </body>
 </html>
